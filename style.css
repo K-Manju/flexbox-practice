@@ -8,19 +8,17 @@
 
 .title{
     text-align: center;
-    padding: 20px;
+    padding:10px
 }
 
 .container{
     display: flex;
     flex-wrap: wrap;
-    padding: 20px;
     justify-content: space-around;
-    flex-grow: 1 1 1 1;
-
 }
 
 .container div{
     width: 200px;
     margin: 10px;
+    flex-basis: 20%;    
 }

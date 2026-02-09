@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Grow Demo</title>
+    <style>
+        .container{
+            background-color: black;
+            color:white;
+            display: flex;
+            padding: 10px;
+            flex-wrap: wrap;
+        }
+        h1{
+            background-color: orangered;
+            margin: 2px;
+            /* padding: 10px; */
+            flex-basis: 24%;
+            flex-grow: 1;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="one">one</h1>
+        <h1 class="two">two</h1>
+        <h1 class="three">three</h1>
+        <h1 class="four">four</h1>
+        <h1 class="five">five</h1>
+        <h1 class="six">six</h1>
+        <h1 class="seven">seven</h1>
+        <h1 class="eight">eight</h1>
+    </div>
+</body>
+</html>
